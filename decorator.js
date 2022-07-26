@@ -34,7 +34,7 @@ Decorator.prototype.paintRoom = function(room) {
             paint.capacity -= area
             area -= paintCap
             if (paint.capacity < 0){
-            paint.capicty = 0}
+            paint.capacity = 0}
             
         }
     }

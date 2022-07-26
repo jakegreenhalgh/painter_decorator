@@ -49,6 +49,8 @@ describe('Decorator', function() {
         decorator.addPaint(paint1)
         decorator.addPaint(paint2)
         decorator.paintRoom(room)
+        const actual = paint1.capacity
+        assert.strictEqual(actual, 0)
     })
 })
 
